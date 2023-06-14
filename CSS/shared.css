@@ -97,14 +97,15 @@ section {
 }
 
 .clearfix::after,
-.container:after,
-.navbar:after {
+.container::after,
+.navbar::after {
     clear:both;
     display: table;
     content:" ";
 }
 
 .wrap {
+    height: 100%;
     width: 100%;
     position:absolute;
     overflow:hidden;
